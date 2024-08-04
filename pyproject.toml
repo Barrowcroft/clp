@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "clp"
+authors = [
+    {name = "barrowcroft", email = "barrowcroft@outlook.com"},
+]
+description = "A simple command line processor (clp)"
+version="1.0.0"
+
+readme = "README.md"
+requires-python = ">=3.12"
+keywords = ["clp"]
+license = {text = "MIT"}
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = []
